@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#heading{
+    display: block;
+    width: 100%;
+    background-image: url(https://keenthemes.com/metronic/assets/images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: transparent !important;
+}
+#header{
+    background-color: transparent;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    height: 80px;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #EAF2FF;
+    transition: all 0.3s ease;
+    z-index: 101;
+    width: 100%;
+}
+.headerbox{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
