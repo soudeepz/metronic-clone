@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
 }
 
 #heading{
@@ -13,6 +19,7 @@
     background-size: cover;
     box-sizing: border-box;
     background-color: transparent !important;
+    position: relative;
 }
 #header{
     background-color: transparent;
@@ -23,7 +30,7 @@
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: 1px solid #EAF2FF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.3s ease;
     z-index: 101;
     width: 100%;
@@ -34,4 +41,87 @@
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+.logo{
+    text-align: left;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+ul{
+    height:100%;
+
+}
+ul > li{
+    height: 100%;
+    list-style: none;
+}
+a{
+    color: #7d8099;
+    text-decoration: none;
+}
+a:hover{
+    color: #0094FF;
+}
+.navitems{
+    display: inline-flex;
+    height: 100%;
+    margin-right: 1.75rem;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    
+}
+.activeNav{
+    border-bottom: 2px solid #0094FF;
+}
+.activeNav a{
+    color:#0094FF !important;
+}
+.buyButton{
+    display: inline-flex;
+    margin-right: 1.75rem;
+    box-sizing: border-box;
+
+}
+.buyButton a{
+    background-color: #50CD89;
+    border-color: #50CD89;
+    border-radius: 5px;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+
+}
+.homeContent{
+    display: flex;
+    width: 80%;
+    padding: 5rem;
+    justify-content: center;
+    text-align: center;
+}
+.homeContent img{
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+.homeText{
+    display: flex;
+    letter-spacing: 0.5px;
 }
